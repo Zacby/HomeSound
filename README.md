@@ -41,8 +41,8 @@ En el directorio "/etc/apt/source.list" añadiremos la siguiente linea:
 Si ya existe no es necesario realizar ningun cambio
 
 Instalamos las dependencias de DarkIce con el siguiente comando
-	-sudo apt-get --no-install-recommends install build-essential devscripts autotools-dev fakeroot dpkg-dev debhelper autotools-dev dh-make quilt ccache libsamplerate0-dev libpulse-dev libaudio-dev lame libjack-jackd2-dev libasound2-dev libtwolame-dev libfaad-dev libflac-dev libmp4v2-dev libshout3-dev libmp3lame-dev
 
+	-sudo apt-get --no-install-recommends install build-essential devscripts autotools-dev fakeroot dpkg-dev debhelper autotools-dev dh-make quilt ccache libsamplerate0-dev libpulse-dev libaudio-dev lame libjack-jackd2-dev libasound2-dev libtwolame-dev libfaad-dev libflac-dev libmp4v2-dev libshout3-dev libmp3lame-dev
 	-mkdir src; cd src/
 	-apt-get source darkice
 
@@ -72,7 +72,7 @@ Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
 INSTALACION
 
 Para construit nuestro darkice:
-	-dpkg-buildpackage -rfakeroot -uc -b
+-dpkg-buildpackage -rfakeroot -uc -b
 	-sudo dpkg -i ../darkice_1.0-999~mp3+1_armhf.deb
 	-sudo cp /usr/share/doc/darkice/examples/darkice.cfg /etc/
 
