@@ -3,7 +3,7 @@ A DIY project that involves AmI (Ambiance Intelligence)
 
 Para poder recrear el proyecto necesitaremos tanto software como hardware, a continuacion una pequeña lista:
 
-<h1> Hardware:
+<h2> Hardware:</h2>
 -Tarjeta de audio externa USB
 -Modulo receptor de audio Bluetooth 
 -Raspberry Pi B 2
