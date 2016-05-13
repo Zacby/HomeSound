@@ -24,8 +24,7 @@ Es necesario por lo menos contar con dos Raspberry's Pi, una sera el servidor y 
 Para descargar e instalar el sistema operativo en la Raspberry Pi podemos seguir el siguiente tutorial:
 
 	Descarga:
-	
-	-https://www.raspberrypi.org/downloads/
+	[link a raspberrypi.org](https://www.raspberrypi.org/downloads/)
 
 	Instalación:
 	
