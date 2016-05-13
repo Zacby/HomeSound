@@ -3,7 +3,7 @@ A DIY project that involves AmI (Ambiance Intelligence)
 
 Para poder recrear el proyecto necesitaremos tanto software como hardware, a continuacion una pequeña lista:
 
-<h2> Hardware:</h2>
+<h3> Hardware:</h3>
 -Tarjeta de audio externa USB
 -Modulo receptor de audio Bluetooth 
 -Raspberry Pi B 2
@@ -12,7 +12,7 @@ Para poder recrear el proyecto necesitaremos tanto software como hardware, a con
 -Antena Wifi
 -Bocinas con alimentacion externa y entrada de jack 3.5 mm
 
-Software
+<h3>Software:</h3>
 -Raspbian (sistema operativo para Raspberry Pi)
 -IceCast2 servidor de streamming multimedia
 -DarkIce cliente de IceCast
@@ -37,7 +37,7 @@ Una vez instalado el sistema operativo es recomendable ejecutar los siguientes c
 	-sudo apt-get upgrade
 
 
-DESCARGA DE DARK ICE
+**DESCARGA DE DARK ICE**
 Una vez actualizado instalaremos DarkIce el cliente de IceCast2:
 
 En el directorio "/etc/apt/source.list" añadiremos la siguiente linea:
@@ -79,16 +79,16 @@ Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
 
 	-debchange -v 1.0-999~mp3+1
 
-INSTALACION
+**INSTALACION**
 
-Para construit nuestro darkice:
+Para construir nuestro darkice:
 
 	-dpkg-buildpackage -rfakeroot -uc -b
 	-sudo dpkg -i ../darkice_1.0-999~mp3+1_armhf.deb
 	-sudo cp /usr/share/doc/darkice/examples/darkice.cfg /etc/
 
 
-INSTALACION DE ICECAST2
+**INSTALACION DE ICECAST2**
 
 Ahora necesitamos instalar el servidor
 	
@@ -103,7 +103,7 @@ Para dar de alta el servicio de icecast2
 
 
 
-INSTALACION omxplayer
+**INSTALACION omxplayer**
 
 Para instalar el reproductor multimedia:
 	
@@ -130,7 +130,7 @@ Es necesario utilizar el codigo "sensores.py" el cual realiza lecturas de los se
 
 Es necesario revisar diagramas de conexión en Raspberry Pi para los sensores.
 
-Futuras mejoras:
+<h3>Futuras mejoras:</h3>
 -Utilizar Raspberry Pi Zero
 -Una tarjeta de audio usb de mejor calidad
 -Un dispositivo Bluetooth Low Energy
