@@ -13,17 +13,19 @@ Para poder recrear el proyecto necesitaremos tanto software como hardware, a con
 	-Bocinas con alimentacion externa y entrada de jack 3.5 mm
 
 <h3>Software:</h3>
--Raspbian (sistema operativo para Raspberry Pi)
--IceCast2 servidor de streamming multimedia
--DarkIce cliente de IceCast
--Omxplayer reproductor de video 
+	-Raspbian (sistema operativo para Raspberry Pi)
+	-IceCast2 servidor de streamming multimedia
+	-DarkIce cliente de IceCast
+	-Omxplayer reproductor de video 
 
 
 Es necesario por lo menos contar con dos Raspberry's Pi, una sera el servidor y la otra sera el cliente, pueden agregarse mas como clientes.
 
 Para descargar e instalar el sistema operativo en la Raspberry Pi podemos seguir el siguiente tutorial:
+
 Descarga:
 	[link a raspberrypi.org](https://www.raspberrypi.org/downloads/)
+
 Instalación:
 	[link instalación](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
@@ -127,8 +129,8 @@ Es necesario utilizar el codigo "sensores.py" el cual realiza lecturas de los se
 Es necesario revisar diagramas de conexión en Raspberry Pi para los sensores.
 
 <h3>Futuras mejoras:</h3>
--Utilizar Raspberry Pi Zero
--Una tarjeta de audio usb de mejor calidad
--Un dispositivo Bluetooth Low Energy
--Comandos de voz
+	-Utilizar Raspberry Pi Zero
+	-Una tarjeta de audio usb de mejor calidad
+	-Un dispositivo Bluetooth Low Energy
+	-Comandos de voz
 
