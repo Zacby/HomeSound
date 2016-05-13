@@ -4,13 +4,13 @@ A DIY project that involves AmI (Ambiance Intelligence)
 Para poder recrear el proyecto necesitaremos tanto software como hardware, a continuacion una pequeña lista:
 
 <h3> Hardware:</h3>
--Tarjeta de audio externa USB
--Modulo receptor de audio Bluetooth 
--Raspberry Pi B 2
--Chip ADC (convertidor Analogico a Digital) MCP3008
--Sensor FSR (Round Force Resistor)
--Antena Wifi
--Bocinas con alimentacion externa y entrada de jack 3.5 mm
+	-Tarjeta de audio externa USB
+	-Modulo receptor de audio Bluetooth 
+	-Raspberry Pi B 2
+	-Chip ADC (convertidor Analogico a Digital) MCP3008
+	-Sensor FSR (Round Force Resistor)
+	-Antena Wifi
+	-Bocinas con alimentacion externa y entrada de jack 3.5 mm
 
 <h3>Software:</h3>
 -Raspbian (sistema operativo para Raspberry Pi)
@@ -22,9 +22,9 @@ Para poder recrear el proyecto necesitaremos tanto software como hardware, a con
 Es necesario por lo menos contar con dos Raspberry's Pi, una sera el servidor y la otra sera el cliente, pueden agregarse mas como clientes.
 
 Para descargar e instalar el sistema operativo en la Raspberry Pi podemos seguir el siguiente tutorial:
-	Descarga:
+Descarga:
 	[link a raspberrypi.org](https://www.raspberrypi.org/downloads/)
-	Instalación:
+Instalación:
 	[link instalación](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 Una vez instalado el sistema operativo es recomendable ejecutar los siguientes comandos:
