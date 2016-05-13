@@ -37,7 +37,7 @@ Una vez instalado el sistema operativo es recomendable ejecutar los siguientes c
 	-sudo apt-get upgrade
 
 
-**DESCARGA DE DARK ICE**
+<h3>DESCARGA DE DARK ICE</h3>
 Una vez actualizado instalaremos DarkIce el cliente de IceCast2:
 
 En el directorio "/etc/apt/source.list" añadiremos la siguiente linea:
@@ -79,7 +79,7 @@ Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
 
 	-debchange -v 1.0-999~mp3+1
 
-**INSTALACION**
+<h3>INSTALACION</h3>
 
 Para construir nuestro darkice:
 
@@ -88,7 +88,7 @@ Para construir nuestro darkice:
 	-sudo cp /usr/share/doc/darkice/examples/darkice.cfg /etc/
 
 
-**INSTALACION DE ICECAST2**
+<h3>INSTALACION DE ICECAST2</h3>
 
 Ahora necesitamos instalar el servidor
 	
@@ -103,7 +103,7 @@ Para dar de alta el servicio de icecast2
 
 
 
-**INSTALACION omxplayer**
+<h3>INSTALACION omxplayer</h3>
 
 Para instalar el reproductor multimedia:
 	
