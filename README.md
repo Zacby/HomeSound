@@ -23,11 +23,14 @@ Es necesario por lo menos contar con dos Raspberry's Pi, una sera el servidor y 
 
 Para descargar e instalar el sistema operativo en la Raspberry Pi podemos seguir el siguiente tutorial:
 	Descarga:
+	
 	-https://www.raspberrypi.org/downloads/
 	Instalación:
+	
 	-https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 
 Una vez instalado el sistema operativo es recomendable ejecutar los siguientes comandos:
+
 	-sudo apt-get update
 	-sudo apt-get upgrade
 
@@ -36,6 +39,7 @@ DESCARGA DE DARK ICE
 Una vez actualizado instalaremos DarkIce el cliente de IceCast2:
 
 En el directorio "/etc/apt/source.list" añadiremos la siguiente linea:
+
 	-deb-src http://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
 
 Si ya existe no es necesario realizar ningun cambio
