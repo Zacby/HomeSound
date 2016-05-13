@@ -71,7 +71,7 @@ Dentro de "/debian/rules" debemos tener los siguiente
 
 En caso de no compilar podemos descargar las reglas del siguiente enlace:
 
-	-http://mattkaar.com/misc/debian/rules
+	[link reglas:](http://mattkaar.com/misc/debian/rules)
 
 Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
 
@@ -116,7 +116,7 @@ El parametro "-o local" nos permite utilizar el jack 3.5mm como las salida de au
 Presionando en el lado del cliente "Crtl + c" podemos dejar de escuchar. 
 
 
-Para poder recrear el sistema HomeSound
+<h2>Para poder recrear el sistema HomeSound</h2>
 Modulo receptor de audio Bluetooth, esto nos permite conectar cualquier dispositivo Bluetooth y empezar transmision de audio, una vez conectado a algun dispositivo ya no estara disponible hasta que la conexion se cierre.
 
 Como la Raspberry Pi no cuenta con una entrada de audio utilizamos una tarjeta de audio externa USB, lo cual no permite tomar el audio que sale por el modulo bluetooth.
