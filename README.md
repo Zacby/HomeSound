@@ -37,6 +37,7 @@ Una vez actualizado instalaremos DarkIce el cliente de IceCast2:
 
 En el directorio "/etc/apt/source.list" añadiremos la siguiente linea
 	-deb-src http://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
+
 Si ya existe no es necesario realizar ningun cambio
 
 Instalamos las dependencias de DarkIce con el siguiente comando
@@ -60,6 +61,7 @@ Dentro de "/debian/rules" debemos tener los siguiente
     	ln -s /usr/share/misc/config.guess .
     	ln -s /usr/share/misc/config.sub .
     	dh_auto_configure -- --prefix=/usr --sysconfdir=/usr/share/doc/darkice/examples --with-vorbis-prefix=/usr/lib/arm-linux-gnueabihf/ --with-jack-prefix=/usr/lib/arm-linux-gnueabihf/ --with-alsa-prefix=/usr/lib/arm-linux-gnueabihf/ --with-faac-prefix=/usr/lib/arm-linux-gnueabihf/ --with-aacplus-prefix=/usr/lib/arm-linux-gnueabihf/ --with-samplerate-prefix=/usr/lib/arm-linux-gnueabihf/ --with-lame-prefix=/usr/lib/arm-linux-gnueabihf/ CFLAGS='-march=armv6 -mfpu=vfp -mfloat-abi=hard'
+
 
 En caso de no compilar podemos descargar las reglas del siguiente enlace:
 	-http://mattkaar.com/misc/debian/rules
