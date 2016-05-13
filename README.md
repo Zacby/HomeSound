@@ -71,7 +71,7 @@ Dentro de "/debian/rules" debemos tener los siguiente
 
 En caso de no compilar podemos descargar las reglas del siguiente enlace:
 
-	[link reglas:](http://mattkaar.com/misc/debian/rules)
+[link reglas:](http://mattkaar.com/misc/debian/rules)
 
 Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
 
