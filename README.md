@@ -13,7 +13,7 @@ Hardware:
 -Bocinas con alimentacion externa y entrada de jack 3.5 mm
 
 Software
--Raspbian (sistema operativo para Raspberry pi)
+-Raspbian (sistema operativo para Raspberry Pi)
 -IceCast2 servidor de streamming multimedia
 -DarkIce cliente de IceCast
 -Omxplayer reproductor de video 
@@ -35,7 +35,7 @@ Una vez instalado el sistema operativo es recomendable ejecutar los siguientes c
 DESCARGA DE DARK ICE
 Una vez actualizado instalaremos DarkIce el cliente de IceCast2:
 
-En el directorio "/etc/apt/source.list" añadiremos la siguiente linea
+En el directorio "/etc/apt/source.list" añadiremos la siguiente linea:
 	-deb-src http://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
 
 Si ya existe no es necesario realizar ningun cambio
