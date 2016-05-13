@@ -76,12 +76,14 @@ En caso de no compilar podemos descargar las reglas del siguiente enlace:
 	-http://mattkaar.com/misc/debian/rules
 
 Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
+
 	-debchange -v 1.0-999~mp3+1
 
 INSTALACION
 
 Para construit nuestro darkice:
--dpkg-buildpackage -rfakeroot -uc -b
+
+	-dpkg-buildpackage -rfakeroot -uc -b
 	-sudo dpkg -i ../darkice_1.0-999~mp3+1_armhf.deb
 	-sudo cp /usr/share/doc/darkice/examples/darkice.cfg /etc/
 
@@ -89,11 +91,13 @@ Para construit nuestro darkice:
 INSTALACION DE ICECAST2
 
 Ahora necesitamos instalar el servidor
+	
 	-sudo apt-get install icecast2
 
-El instalador nos pedire que asignemos contraseñas el servidor y el darkice deben tener la misma contraseña.
+El instalador nos pedira que asignemos contraseñas el servidor y el darkice deben tener la misma contraseña.
 
 Para dar de alta el servicio de icecast2
+	
 	-sudo service icecast2 start
 	-sudo darkice
 
@@ -102,6 +106,7 @@ Para dar de alta el servicio de icecast2
 INSTALACION omxplayer
 
 Para instalar el reproductor multimedia:
+	
 	-sudo apt-get install omxplayer
 
 Para poder escuchar alguna transmision del servidor ejecutamos el siguiente comando
