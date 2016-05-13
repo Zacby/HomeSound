@@ -22,9 +22,11 @@ Software
 Es necesario por lo menos contar con dos Raspberry's Pi, una sera el servidor y la otra sera el cliente, pueden agregarse mas como clientes.
 
 Para descargar e instalar el sistema operativo en la Raspberry Pi podemos seguir el siguiente tutorial:
+
 	Descarga:
 	
 	-https://www.raspberrypi.org/downloads/
+
 	Instalación:
 	
 	-https://www.raspberrypi.org/documentation/installation/installing-images/README.md
@@ -51,10 +53,12 @@ Instalamos las dependencias de DarkIce con el siguiente comando
 	-apt-get source darkice
 
 En el siguiente directorio modificaremos la configuración:
+
 	-cd darkice-1.0
 	-vi debian/rules
 
 Dentro de "/debian/rules" debemos tener los siguiente
+
 	!/usr/bin/make -f
 
 	%:
@@ -68,6 +72,7 @@ Dentro de "/debian/rules" debemos tener los siguiente
 
 
 En caso de no compilar podemos descargar las reglas del siguiente enlace:
+
 	-http://mattkaar.com/misc/debian/rules
 
 Para permitir MP3 mecesitaremos ejecutar el siguiente comando:
